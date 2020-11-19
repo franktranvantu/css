@@ -1,0 +1,23 @@
+/* .container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+} */
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+
+  height: 100%;
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+}
+
+.logout {
+  align-self: flex-start;
+}
+
+.home {
+  align-self: flex-end;
+}
