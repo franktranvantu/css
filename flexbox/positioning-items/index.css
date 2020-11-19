@@ -1,0 +1,27 @@
+/* .container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+} */
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+
+  /* 3 */
+  justify-content: flex-end;
+}
+
+/* 1 */
+/* .logout {
+  margin-left: auto;
+} */
+
+/* 2 */
+/* .search {
+  margin-left: auto;
+} */
+
+/* 3 */
+/* .home {
+  margin-right: auto;
+} */
