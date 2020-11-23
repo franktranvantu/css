@@ -1,21 +1,33 @@
-.container {
-  /* padding: 1px; */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
 .container > h1 {
-  margin: 45px 0 0;
-
   font-size: 48px;
   color: #2E7AD3;
+  text-align: center;
+  margin: 45px 0;
 }
 
-.container > .section {
-  background: lightgray;
-  padding: 1px;
-  margin-top: 45px;
-
+.container > .blog-post {
+  background: #f1f1f1;
+  width: 450px;
+  padding: 25px;
+  margin: 0 auto;
 }
 
-.container > .section > h2 {
-  /* margin-top: 0; */
+.container > .blog-post > h2 {
+  margin: 0 0 10px;
+  color: #104c90;
+  font-size: 32px;
+}
+
+.container > .blog-post a {
+  color: #ff8000;
+  font-weight: bold;
+}
+
+.container > .blog-post > .read-more {
+  margin-bottom: 0;
 }
