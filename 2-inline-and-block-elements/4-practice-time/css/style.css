@@ -1,0 +1,21 @@
+.container {
+  /* padding: 1px; */
+}
+
+.container > h1 {
+  margin: 45px 0 0;
+
+  font-size: 48px;
+  color: #2E7AD3;
+}
+
+.container > .section {
+  background: lightgray;
+  padding: 1px;
+  margin-top: 45px;
+
+}
+
+.container > .section > h2 {
+  /* margin-top: 0; */
+}
